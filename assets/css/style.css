@@ -1,0 +1,291 @@
+body {
+  background-color: #EFEEB4;
+  height: 1400px;
+}
+body header {
+  z-index: 10;
+  top: 0;
+  position: fixed;
+  width: 100%;
+}
+body header div nav {
+  border: 1px solid transparent;
+  border-radius: 50px;
+  background-color: white;
+}
+body header div nav div a span {
+  font-family: "space grotesk", sans-serif;
+  font-size: 20px;
+}
+body header div nav div div ul li a .contactt {
+  border: 1px solid transparent;
+  border-radius: 50px;
+  width: 120px;
+  display: block;
+  height: 40px;
+  background-color: #212529;
+}
+body header div nav div div ul li a .contactt:hover {
+  background-color: #58b360;
+}
+body .container {
+  height: 666px;
+  margin-top: 18%;
+}
+body .container div h1 span {
+  font-size: 74px;
+}
+body .container div div p {
+  color: #31302f;
+  font-size: 24px;
+  margin-top: 27px;
+  margin-bottom: 3rem;
+}
+body .container div .linkcon {
+  border: 1px solid transparent;
+  border-radius: 50px;
+  width: 148px;
+  height: 48px;
+  display: block;
+  background-color: #58b360;
+  text-decoration: none;
+}
+body .container div .linkcon:hover {
+  background-color: #212529;
+}
+body .container div .linkcon span {
+  color: white;
+  font-size: 18px;
+}
+body .container .left-box-img {
+  width: 586px;
+  height: 592px;
+  border: transparent;
+  border-radius: 123px 0px 120px 120px;
+  padding: 0px;
+  position: relative;
+  overflow-x: hidden;
+}
+body .container .left-box-img:hover .back-img1 {
+  width: 246px;
+  height: 197px;
+  border: transparent;
+  border-radius: 123px 0px 140px 0px;
+  background-color: rgba(48, 153, 117, 0.8117647059);
+  z-index: 2;
+}
+body .container .left-box-img:hover .back-img1 .back-img1-up {
+  width: 246px;
+  height: 197px;
+  border: transparent;
+  border-radius: 123px 0px 140px 0px;
+  background-color: #bcd2eb;
+  z-index: 2;
+  animation-timing-function: ease;
+  animation: mymove 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 50px;
+  }
+}
+body .container .left-box-img:hover .back-img1 .img-left {
+  width: 246px;
+  height: 197px;
+  border: transparent;
+  border-radius: 123px 0px 140px 0px;
+  z-index: 3;
+  animation-timing-function: ease;
+  animation: mymove 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 50px;
+  }
+}
+body .container .left-box-img:hover .back-img1 .right-top {
+  width: 340px;
+  height: 197px;
+  border: transparent;
+  border-radius: 0px 0px 0px 140px;
+  background-color: #bcd2eb;
+  z-index: 1;
+  position: absolute;
+  margin-left: 345px;
+  transition: 1s;
+}
+body .container .left-box-img:hover .back-img2 .back-img2-up {
+  width: 205px;
+  height: 197px;
+  border: transparent;
+  background-color: rgba(48, 153, 117, 0.8117647059);
+  border-radius: 50%;
+  z-index: 2;
+  position: absolute;
+  animation-timing-function: ease;
+  animation: img2 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes img2 {
+  from {
+    right: 0px;
+  }
+  to {
+    right: 70px;
+  }
+}
+body .container .left-box-img:hover .back-img2 .img-right {
+  width: 205px;
+  height: 197px;
+  border: transparent;
+  border-radius: 50%;
+  z-index: 3;
+  position: absolute;
+  animation-timing-function: ease;
+  animation: img2 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes img2 {
+  from {
+    right: 0px;
+  }
+  to {
+    right: 70px;
+  }
+}
+body .container .left-box-img .back-img1 {
+  width: 246px;
+  height: 197px;
+  border: transparent;
+  border-radius: 123px 0px 140px 0px;
+  background-color: rgba(48, 153, 117, 0.8117647059);
+  z-index: 1;
+  position: absolute;
+}
+body .container .left-box-img .back-img1 .back-img1-up {
+  width: 246px;
+  height: 197px;
+  border: transparent;
+  border-radius: 123px 0px 140px 0px;
+  background-color: #bcd2eb;
+  z-index: 2;
+  position: absolute;
+}
+body .container .left-box-img .back-img1 .img-left {
+  width: 246px;
+  height: 197px;
+  border: transparent;
+  border-radius: 123px 0px 140px 0px;
+  z-index: 3;
+  position: absolute;
+}
+body .container .left-box-img .back-img1 .right-top {
+  width: 340px;
+  height: 197px;
+  border: transparent;
+  border-radius: 0px 0px 0px 140px;
+  background-color: #bcd2eb;
+  margin-left: 246px;
+  z-index: 1;
+  position: absolute;
+}
+body .container .left-box-img .left-between {
+  width: 380px;
+  height: 197px;
+  background-color: rgba(48, 153, 117, 0.8117647059);
+  border: transparent;
+  border-radius: 0px 122px 122px 0px;
+  z-index: 1;
+  position: absolute;
+}
+body .container .left-box-img .right-between {
+  margin-top: 197px;
+}
+body .container .left-box-img .right-between .back-img2 {
+  width: 205px;
+  height: 197px;
+  border: transparent;
+  border-radius: 50%;
+  background-color: #bcd2eb;
+  z-index: 1;
+  position: absolute;
+  margin-left: 380px;
+}
+body .container .left-box-img .right-between .back-img2 .back-img2-up {
+  width: 205px;
+  height: 197px;
+  border: transparent;
+  background-color: rgba(48, 153, 117, 0.8117647059);
+  border-radius: 50%;
+  z-index: 2;
+  position: absolute;
+  padding: 0px;
+}
+body .container .left-box-img .right-between .back-img2 .img-right {
+  width: 205px;
+  height: 197px;
+  border: transparent;
+  border-radius: 50%;
+  z-index: 3;
+  position: absolute;
+}
+body .box-list {
+  background-color: #309975;
+  height: 1668px;
+}
+body .box-list .division-text-tailored {
+  height: 192px;
+  padding: 164px 0px 40px 92px;
+}
+body .box-list .division-text-tailored .box-service {
+  background-color: white;
+  border: transparent;
+  border-radius: 0 14px 0 0;
+  width: 105px;
+  height: 32px;
+}
+body .box-list .division-text-tailored .text-tailored p {
+  font-size: 53px;
+}
+body .box-list .listofitem {
+  margin-top: 194px;
+}
+body .box-list .listofitem ul li {
+  border-top: 1px solid white;
+  background-color: #309975;
+}
+body .box-list .listofitem ul li:hover {
+  background-color: #454d66;
+  transition: 1s;
+  color: white;
+}
+body .box-list .listofitem ul li .span-right {
+  height: 246px;
+  display: flex;
+  justify-content: space-around;
+}
+body .box-list .listofitem ul li .span-right .span-number span {
+  font-size: 72px;
+}
+body .box-list .listofitem ul li .span-right .span-he span {
+  font-size: 32px;
+}
+body .box-list .listofitem ul li .paragraph-list {
+  display: flex;
+  justify-content: space-around;
+}
+body .box-list .listofitem ul li .paragraph-list p {
+  width: 572px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/*# sourceMappingURL=style.css.map */

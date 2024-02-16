@@ -546,7 +546,6 @@ body .faq .end-box {
   margin-top: 121px;
 }
 body .footer-box {
-  height: 1000px;
   background-color: #113025;
   margin-top: 300px;
 }
@@ -582,6 +581,9 @@ body .footer-box .get-in-touch .input-name-lastname .btn-Get-a-quote:hover {
   background-color: white;
   color: black;
   border: 2px solid black;
+}
+body .footer-box .footer-end {
+  border-bottom: 3px solid white;
 }
 
 /*# sourceMappingURL=style.css.map */

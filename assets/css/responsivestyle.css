@@ -1,0 +1,13 @@
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  body .container .right-box-text h1 span {
+    font-size: 40px;
+  }
+  body .container .right-box-text div p {
+    color: #31302f;
+    font-size: 24px;
+    margin-top: 27px;
+    margin-bottom: 3rem;
+  }
+}
+
+/*# sourceMappingURL=responsivestyle.css.map */

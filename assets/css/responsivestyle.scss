@@ -1,0 +1,40 @@
+
+@media screen and (max-width:576px) {
+    body {
+      
+    }
+  }
+
+
+  @media screen and (min-width :576px) and (max-width:992px) {
+    body {
+       header{}
+      .container{
+        .right-box-text{
+            h1 {
+                span {
+                    font-size: 40px;
+                }
+            }
+
+            div {
+                p {
+                    color: #31302f;
+                    font-size: 24px;
+                    margin-top: 27px;
+                    margin-bottom: 3rem;
+                }
+
+            }
+        }
+
+       }
+      }
+  }
+  
+  @media screen and (min-width: 992px) {
+    body {
+    
+    }
+  }
+  

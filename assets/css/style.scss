@@ -1,12 +1,13 @@
 body {
     background-color: #EFEEB4;
-    height: 1400px;
+
 
     header {
-        z-index: 10;
+        z-index: 3;
         top: 0;
         position: fixed;
-        width: 100%;
+
+
 
         div {
 
@@ -21,6 +22,15 @@ body {
                         span {
                             font-family: "space grotesk", sans-serif;
                             font-size: 20px;
+                        }
+
+                    }
+
+                    button {
+                        border: transparent;
+
+                        &:hover {
+                            border: transparent;
                         }
                     }
 
@@ -52,18 +62,15 @@ body {
     }
 
     .container {
-        height: 666px;
 
-        margin-top: 18%;
+
 
         .right-box-text {
 
-
+            margin-bottom: 20px;
 
             h1 {
-                span {
-                    font-size: 74px;
-                }
+                span {}
             }
 
             div {
@@ -102,9 +109,10 @@ body {
             }
         }
 
+
         .left-box-img {
-            width: 586px;
-            height: 592px;
+
+
 
             border: transparent;
             border-radius: 123px 0px 0px 120px;
@@ -178,7 +186,7 @@ body {
                     }
 
                     .right-top {
-                        width: 340px;
+                        width: 150px;
                         height: 197px;
                         border: transparent;
                         border-radius: 0px 0px 0px 140px;
@@ -187,6 +195,7 @@ body {
                         position: absolute;
                         margin-left: 345px;
                         transition: 1s;
+
 
                     }
                 }
@@ -310,7 +319,7 @@ body {
 
 
                 .right-top {
-                    width: 340px;
+                    width: 246px;
                     height: 197px;
                     border: transparent;
                     border-radius: 0px 0px 0px 140px;
@@ -325,7 +334,7 @@ body {
             }
 
             .left-between {
-                width: 380px;
+                width: 291px;
                 height: 197px;
 
                 background-color: #10825acf;
@@ -349,7 +358,7 @@ body {
                     background-color: #bcd2eb;
                     z-index: 1;
                     position: absolute;
-                    margin-left: 380px;
+                    margin-left: 292px;
 
 
 
@@ -398,7 +407,7 @@ body {
 
                 div {
                     .right-box-bottom {
-                        width: 380px;
+                        width: 291px;
                         height: 197px;
                         background-color: #1c9c6fcf;
                         border: transparent;
@@ -407,7 +416,7 @@ body {
                         position: absolute;
 
                         .box-in-right-box-bottom-r {
-                            width: 75px;
+                            width: 37.5px;
                             height: 197px;
                             position: absolute;
                             z-index: 2;
@@ -415,8 +424,8 @@ body {
                         }
 
                         .box-in-right-box-bottom-l {
-                            margin-left: 75px;
-                            width: 75px;
+                            margin-left: 37.5px;
+                            width: 37.5px;
                             height: 197px;
                             position: absolute;
                             z-index: 2;
@@ -452,7 +461,8 @@ body {
 
         .division-text-tailored {
             height: 192px;
-            padding: 164px 0px 40px 92px;
+            padding-left: 20px;
+            padding-top: 20px;
 
             .box-service {
                 background-color: white;
@@ -480,6 +490,8 @@ body {
         .listofitem {
             margin-top: 194px;
             border-top: 1px solid white;
+            display: flex;
+            flex-direction: row;
 
 
             ul {
@@ -488,12 +500,16 @@ body {
 
                 li {
 
-
+                    // height: 465px;
                     background-color: #309975;
-                    height: 264px;
 
 
 
+                    .span-right {
+
+                        display: flex;
+                        flex-direction: row;
+                    }
 
                     &:hover {
                         background-color: #454d66;
@@ -508,7 +524,7 @@ body {
 
 
                     .span-right {
-                        height: 246px;
+
                         display: flex;
                         justify-content: space-around;
 
@@ -540,7 +556,7 @@ body {
 
 
                         p {
-                            width: 572px;
+
                             font-size: 18px;
                             line-height: 1.6;
 
@@ -564,7 +580,7 @@ body {
         .about-titr {
             height: 192px;
             padding: 0px 60px;
-            width: 331px;
+
 
             .box-about-titr-text {
 
@@ -594,7 +610,7 @@ body {
 
 
         .colom-second {
-            width: 522px;
+
             padding-top: 500px;
 
 
@@ -605,9 +621,7 @@ body {
 
         }
 
-        .colom-tired {
-            width: 378px;
-        }
+        .colom-tired {}
 
 
 
@@ -619,9 +633,9 @@ body {
 
 
         .approach-titr {
-            height: 192px;
+
             padding: 40px 78px;
-            width: 331px;
+
 
             .box-approach-titr-text {
 
@@ -638,7 +652,7 @@ body {
             .text-approach-titr {
                 p {
 
-                    width: 700px;
+
                     font-size: 58px;
                     font-weight: 200;
 
@@ -653,13 +667,13 @@ body {
             margin-left: 80px;
             margin-top: 100px;
             height: 505px;
-            font-size: 43px;
-            padding-left: 106px;
+            font-size: 38px;
+            padding-left: 30px;
             display: flex;
             align-items: center;
 
             p {
-                width: 1037px;
+                width: 100%;
                 margin-bottom: 0;
 
             }
@@ -681,7 +695,7 @@ body {
         .benefits-titr {
             height: 192px;
             padding: 40px 78px;
-            width: 331px;
+
             margin-top: 70px;
 
 
@@ -700,7 +714,7 @@ body {
 
             .text-benefits-titr {
                 p {
-                    width: 835px;
+
                     font-size: 68px;
                     font-weight: 200;
                 }
@@ -709,6 +723,8 @@ body {
 
         .svg-box {
             padding: 0 9px;
+            display: flex;
+            justify-content: center;
 
             .svg-1,
             .svg-2,
@@ -732,12 +748,12 @@ body {
     }
 
     .testimonials {
-
+        width: 100%;
 
         .testimonials-titr {
             height: 192px;
             padding: 40px 78px;
-            width: 331px;
+
             margin-top: 70px;
 
 
@@ -759,7 +775,7 @@ body {
 
             .text-testimonials-titr {
                 p {
-                    width: 773px;
+
                     font-size: 68px;
                     font-weight: 200;
 
@@ -767,50 +783,35 @@ body {
             }
         }
 
-
-
-
-
-        .grid-container {
-            display: grid;
-            grid-template-columns: auto auto auto;
-            border: 2px solid black;
-
-
-
-            .grid-item {
-
-                border: 1px solid rgba(0, 0, 0, 0.8);
-                padding: 49px;
-                font-size: 16px;
-                text-align: center;
-                width: 407px;
-
+        .picture-of-test {
+            .box-of-picture-of-test {
+                border: 1px solid black;
 
                 img {
-                    width: 252px;
-                    height: 249px;
                     border: transparent;
                     border-radius: 50% 50% 50% 0;
+                }
 
-                    &:hover {
-                        transition: 0.5s;
-                        transform: scale(1.2, 1.2);
-                    }
+                .paragraph-and-span-test {
+                    border: 1px solid black;
                 }
 
             }
         }
+
+
     }
 
 
     .faq {
 
+        display: flex;
+        justify-content: space-around;
 
         .faq-titr {
-            height: 192px;
+
             padding: 40px 78px;
-            width: 331px;
+
             margin-top: 70px;
 
 
@@ -832,8 +833,8 @@ body {
 
             .text-faq-titr {
                 p {
-                    width: 773px;
-                    font-size: 68px;
+
+                    font-size: 44px;
                     font-weight: 200;
 
                 }
@@ -842,7 +843,7 @@ body {
 
         .between-box {
             margin-top: 121px;
-            width: 387px;
+
             margin-left: 73px;
 
             .accordion {
@@ -851,7 +852,7 @@ body {
                 --bs-accordion-bg: transparent;
                 --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
                 --bs-accordion-border-color: transparent;
-                --bs-accordion-border-width: var(--bs-border-width);
+                --bs-accordion-border-width: 0px;
                 --bs-accordion-border-radius: transparent;
                 --bs-accordion-inner-border-radius: transparent;
                 --bs-accordion-btn-padding-x: 1.25rem;
@@ -870,8 +871,10 @@ body {
                 --bs-accordion-active-color: var(--bs-primary-text-emphasis);
                 --bs-accordion-active-bg: transparent;
 
+
                 .accordion-item {
                     border-bottom: 1px solid black;
+
                 }
 
                 .accordion-body {
@@ -905,22 +908,22 @@ body {
 
 
 
-        
+
         background-color: #113025;
         margin-top: 300px;
 
         .get-in-touch {
             display: flex;
+            padding-bottom: 20px;
 
-            width: 90%;
             background-color: #bcd2eb;
-            height:800px;
+
             border: transparent;
             border-radius: 50px 50px 0 0;
 
 
             .right-box-get {
-                width: 50%;
+
                 padding: 102px;
 
                 .span-right-box-get {
@@ -931,22 +934,26 @@ body {
 
             .input-name-lastname {
                 padding-top: 120px;
-            
-                flex-wrap: wrap;
+                display: flex;
+                flex-direction: column;
+
+                .form-leave-comment {
+                    margin-top: 10px;
+                }
 
                 .btn-Get-a-quote {
 
-                    width: 551px;
+                    margin-top: 10px;
                     background-color: black;
                     color: white;
                     border: transparent;
                     border-radius: 22px;
-                    height:48px;
-                
-                    &:hover{
-                        background-color:white;
-                        color:black; 
-                        border:2px solid black;
+                    height: 48px;
+
+                    &:hover {
+                        background-color: white;
+                        color: black;
+                        border: 2px solid black;
                     }
                 }
 
@@ -954,11 +961,29 @@ body {
 
         }
 
-.footer-end{
-border-bottom:3px solid white;
-}
+        .footer-end {
+            border-bottom: 3px solid white;
+            margin-top: 3rem;
+            padding-bottom: 3rem;
 
 
+            .footer-box {
+                .footer-element {
+
+                    margin-left: 3rem;
+                    padding-top: 3rem;
+                    padding-bottom: 1.5rem;
+                    padding-left: 1.5rem;
+                    padding-right: 3rem;
+
+                    .social-header {
+                        margin-bottom: 1rem;
+                    }
+                }
+            }
+
+
+        }
 
 
 

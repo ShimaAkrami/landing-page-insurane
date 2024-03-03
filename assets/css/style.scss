@@ -25,12 +25,10 @@ body {
                         }
 
                     }
-
-                    button {
-                        border: transparent;
-
-                        &:hover {
-                            border: transparent;
+                    button{
+                        border:transparent;
+                        &:hover{
+                            border:transparent;
                         }
                     }
 
@@ -112,8 +110,8 @@ body {
 
         .left-box-img {
 
-
-
+            
+            
             border: transparent;
             border-radius: 123px 0px 0px 120px;
             padding: 0px;
@@ -334,7 +332,7 @@ body {
             }
 
             .left-between {
-                width: 291px;
+                width:291px;
                 height: 197px;
 
                 background-color: #10825acf;
@@ -580,7 +578,7 @@ body {
         .about-titr {
             height: 192px;
             padding: 0px 60px;
-
+           
 
             .box-about-titr-text {
 
@@ -633,7 +631,7 @@ body {
 
 
         .approach-titr {
-
+           
             padding: 40px 78px;
 
 
@@ -673,7 +671,7 @@ body {
             align-items: center;
 
             p {
-                width: 100%;
+                width:100%;
                 margin-bottom: 0;
 
             }
@@ -809,9 +807,9 @@ body {
         justify-content: space-around;
 
         .faq-titr {
-
+           
             padding: 40px 78px;
-
+            
             margin-top: 70px;
 
 
@@ -934,8 +932,8 @@ body {
 
             .input-name-lastname {
                 padding-top: 120px;
-                display: flex;
-                flex-direction: column;
+
+                flex-wrap: wrap;
 
                 .form-leave-comment {
                     margin-top: 10px;
@@ -962,6 +960,7 @@ body {
         }
 
         .footer-end {
+            
             border-bottom: 3px solid white;
             margin-top: 3rem;
             padding-bottom: 3rem;

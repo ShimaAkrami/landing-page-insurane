@@ -431,7 +431,7 @@
                 }
 
                 .input-name-lastname {
-                    padding-top: 20px;
+                   
 
                     flex-wrap: wrap;
                     color: white;
@@ -992,7 +992,15 @@
                 display: none;
             }
         }
+        .footer-box{
+            .get-in-touch{
+                .input-name-lastname{
+                     padding-top: 120px;
+                }
+            }
+           
         
+        }
         .footer-end {
             .footer-md-size {
                 display: flex;

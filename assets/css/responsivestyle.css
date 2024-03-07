@@ -270,7 +270,6 @@
     font-weight: 200;
   }
   body .footer-box .get-in-touch .input-name-lastname {
-    padding-top: 20px;
     flex-wrap: wrap;
     color: white;
   }
@@ -579,6 +578,9 @@
   }
   body #scrollheading5 #left-container {
     display: none;
+  }
+  body .footer-box .get-in-touch .input-name-lastname {
+    padding-top: 120px;
   }
   body .footer-end .footer-md-size {
     display: flex;
